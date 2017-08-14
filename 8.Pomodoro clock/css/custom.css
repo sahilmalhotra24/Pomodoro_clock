@@ -1,0 +1,49 @@
+
+/*
+Bootstrap overrides
+*/
+
+.btn.focus, .btn:focus, .btn:hover { color: #E1BEE7; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #E95546;
+  color: #FFF;
+}
+
+#top-header { margin-bottom: 2% }
+
+#top-header h1 { color: #D0699E; }
+
+#session button {
+  margin-top: -10px;
+  padding: 0.5em 3em;
+}
+
+#length {
+  display: inline-block;
+  margin: 0 12px;
+}
+
+#resume, #stop { display: none; }
+
+#clock { margin-bottom: 12px; }
+
+.circle {
+  height: 390px;
+  padding-top: 7em;
+  border: 1px solid #fff;
+  border-radius: 60%;
+}
+
+.circle h2, .circle h3 { font-size: 3em; }
+
+/*Helper colors */
+
+
+.ghost {
+  background-color: transparent;
+  border-color: #fff;
+}
+
+.green { border-color: #fff; }
